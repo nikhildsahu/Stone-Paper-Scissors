@@ -102,8 +102,8 @@ class Main extends Component {
     this.setState({ block: "" });
     var p = this.state.userchoiceNO;
     var c = this.state.compchoiceNO;
-    var w = "You Win";
-    var l = "You lose";
+    var w = "You Win ,YAY!!";
+    var l = "You Lose , Let's Try Again ";
     console.log(p + "" + c);
     if (p != c) {
       if (p == 1) {
@@ -162,7 +162,7 @@ class Main extends Component {
             >
               {""}
 
-              <Typing speed={170}>
+              <Typing loop speed={170}>
                 <Typing.Reset count={1} delay={500} />
                 <span>Hey There!! </span>
 
@@ -383,7 +383,7 @@ class Main extends Component {
                     }}
                     onClick={this.go.bind(this)}
                   >
-                    Go
+                    Let's Play
                   </Fab>
                 ) : null}
                 ;
@@ -446,30 +446,54 @@ class Main extends Component {
               </Grid>
               <Grid item md={2} />
               <Grid item md={3}>
-                <Button
-                  variant="outlined"
-                  color="inherit"
-                  style={{ color: "white", position: "relative", left: "20px" }}
-                  onClick={this.setPlayer.bind(this, 1)}
-                >
-                  Stone
-                </Button>
-                <Button
-                  variant="outlined"
-                  color="inherit"
-                  onClick={this.setPlayer.bind(this, 2)}
-                  style={{ color: "white", position: "relative", left: "30px" }}
-                >
-                  Paper
-                </Button>
-                <Button
-                  variant="outlined"
-                  color="inherit"
-                  style={{ color: "white", position: "relative", left: "40px" }}
-                  onClick={this.setPlayer.bind(this, 3)}
-                >
-                  Scissor
-                </Button>
+                {this.state.block == 1 ? (
+                  <div>
+                    <Button
+                      variant="outlined"
+                      color="inherit"
+                      style={{
+                        color: "white",
+                        position: "relative",
+                        left: "20px"
+                      }}
+                      onClick={this.setPlayer.bind(this, 1)}
+                    >
+                      Stone
+                    </Button>
+                    <Button
+                      variant="outlined"
+                      color="inherit"
+                      onClick={this.setPlayer.bind(this, 2)}
+                      style={{
+                        color: "white",
+                        position: "relative",
+                        left: "30px"
+                      }}
+                    >
+                      Paper
+                    </Button>
+                    <Button
+                      variant="outlined"
+                      color="inherit"
+                      style={{
+                        color: "white",
+                        position: "relative",
+                        left: "40px"
+                      }}
+                      onClick={this.setPlayer.bind(this, 3)}
+                    >
+                      Scissor
+                    </Button>
+                  </div>
+                ) : (
+                  <Button
+                    variant="outlined"
+                    color="inherit"
+                    style={{ color: "white", width: "300px" }}
+                  >
+                    User
+                  </Button>
+                )}
               </Grid>
               <Grid item md={2} />
               <Grid item md={3}>
