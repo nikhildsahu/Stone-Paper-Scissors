@@ -1,3 +1,14 @@
+This Simple Implementation of Stone Paper Scissor  Game 
+
+You vs Computer 
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
