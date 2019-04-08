@@ -36,7 +36,7 @@ class Main extends Component {
     display: 1
   };
   setPlayer = c => {
-    if (c == 1) {
+    if (c === 1) {
       this.setState({ userchoice: require("../img/stone.png") });
       this.setState({ userchoicename: "Stone" });
       this.setState({ userchoiceNO: 1 });
@@ -44,7 +44,7 @@ class Main extends Component {
       this.setState({ userchoice: require("../img/paper.png") });
       this.setState({ userchoicename: "Paper" });
       this.setState({ userchoiceNO: 2 });
-    } else if (c == 3) {
+    } else if (c === 3) {
       this.setState({ userchoice: require("../img/scissors.png") });
       this.setState({ userchoicename: "Scissor" });
       this.setState({ userchoiceNO: 3 });
@@ -83,15 +83,15 @@ class Main extends Component {
   generateCompChoice = () => {
     var c = Math.floor(Math.random() * (3 - 1 + 1) + 1);
     console.log(c);
-    if (c == 1) {
+    if (c === 1) {
       this.setState({ compchoice: require("../img/stone.png") });
       this.setState({ compchoicename: "Stone" });
       this.setState({ compchoiceNO: 1 });
-    } else if (c == 2) {
+    } else if (c === 2) {
       this.setState({ compchoice: require("../img/paper.png") });
       this.setState({ compchoicename: "Paper" });
       this.setState({ compchoiceNO: 2 });
-    } else if (c == 3) {
+    } else if (c === 3) {
       this.setState({ compchoice: require("../img/scissors.png") });
       this.setState({ compchoicename: "Scissor" });
       this.setState({ compchoiceNO: 3 });
@@ -105,28 +105,28 @@ class Main extends Component {
     var w = "You Win ,YAY!!";
     var l = "You Lose , Let's Try Again ";
     console.log(p + "" + c);
-    if (p != c) {
-      if (p == 1) {
-        if (c == 2) {
+    if (p !== c) {
+      if (p === 1) {
+        if (c === 2) {
           this.setState({ compscore: this.state.compscore + 1 });
           this.setState({ result: l });
-        } else if (c == 3) {
+        } else if (c === 3) {
           this.setState({ playerscore: this.state.playerscore + 1 });
           this.setState({ result: w });
         }
-      } else if (p == 2) {
-        if (c == 3) {
+      } else if (p === 2) {
+        if (c === 3) {
           this.setState({ compscore: this.state.compscore + 1 });
           this.setState({ result: l });
-        } else if (c == 1) {
+        } else if (c === 1) {
           this.setState({ playerscore: this.state.playerscore + 1 });
           this.setState({ result: w });
         }
-      } else if (p == 3) {
-        if (c == 1) {
+      } else if (p === 3) {
+        if (c === 1) {
           this.setState({ compscore: this.state.compscore + 1 });
           this.setState({ result: l });
-        } else if (c == 2) {
+        } else if (c === 2) {
           this.setState({ playerscore: this.state.playerscore + 1 });
           this.setState({ result: w });
         }
@@ -163,7 +163,9 @@ class Main extends Component {
               {""}
 
               <Typing loop speed={170}>
-                <Typing.Reset count={1} delay={500} />
+                <span> </span>
+                <Typing.Reset count={1} delay={50} />
+
                 <span>Hey There!! </span>
 
                 <Typing.Backspace count={12} />
@@ -386,7 +388,6 @@ class Main extends Component {
                     Let's Play
                   </Fab>
                 ) : null}
-                ;
               </Grid>
 
               <Grid item md={3}>
