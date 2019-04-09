@@ -533,7 +533,6 @@ class Main extends Component {
                     Try ,Again
                   </Button>
                 ) : null}
-                ;
               </Grid>
             </Grid>
           </div>
