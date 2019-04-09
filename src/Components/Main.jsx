@@ -162,17 +162,23 @@ class Main extends Component {
             >
               {""}
 
-              <Typing loop speed={170}>
+              {/* <Typing loop speed={170}>
                 <span> </span>
                 <Typing.Reset count={1} delay={50} />
 
                 <span>Hey There!! </span>
 
                 <Typing.Backspace count={12} />
-
+              </Typing>
+              <Typing loop speed={170}>
+                <span> </span>
+                <Typing.Reset count={1} delay={50} />
                 <span>Welcome </span>
                 <Typing.Backspace count={8} />
-
+              </Typing> */}
+              <Typing loop speed={170}>
+                <span> </span>
+                <Typing.Reset count={1} delay={50} />
                 <span>Let's Play</span>
                 <Typing.Backspace count={10} />
               </Typing>
