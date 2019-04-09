@@ -6,6 +6,7 @@ import scissors from "../img/scissors.png";
 import { ScrollTo } from "react-scroll-to";
 import avatarimg from "../img/avatar.png";
 import { Delay } from "react-delay";
+import Dev from "./Dev";
 import {
   Grid,
   Typography,
@@ -278,7 +279,7 @@ class Main extends Component {
             >
               <ScrollTo>
                 {({ scrollTo }) => (
-                  <a onClick={() => scrollTo({ y: 800, smooth: true })}>
+                  <a onClick={() => scrollTo({ y: 760, smooth: true })}>
                     Let's Go!
                   </a>
                 )}
@@ -513,7 +514,7 @@ class Main extends Component {
                 </Button>
               </Grid>
               <Grid item md={2} />
-              <Grid item md={12}>
+              <Grid item md={12} style={{ height: "50px" }}>
                 <Typography
                   component="h2"
                   variant="display3"
@@ -521,10 +522,11 @@ class Main extends Component {
                   style={{ textAlign: "center", paddingRight: "100px" }}
                 >
                   {this.state.result}
+                  <span> </span>
                 </Typography>
               </Grid>
               <Grid item md={5} />
-              <Grid item md={4}>
+              <Grid item md={4} style={{ height: "50px", paddingTop: "30px" }}>
                 {this.state.result ? (
                   <Button
                     variant="outlined"
@@ -538,7 +540,12 @@ class Main extends Component {
                   >
                     Try ,Again
                   </Button>
-                ) : null}
+                ) : (
+                  <div>{}</div>
+                )}
+              </Grid>
+              <Grid item md={12}>
+                <Dev />
               </Grid>
             </Grid>
           </div>
