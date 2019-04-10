@@ -7,6 +7,7 @@ import { ScrollTo } from "react-scroll-to";
 import avatarimg from "../img/avatar.png";
 import { Delay } from "react-delay";
 import Dev from "./Dev";
+import Typinganimation from "./Typinganimation";
 import {
   Grid,
   Typography,
@@ -155,35 +156,7 @@ class Main extends Component {
             >
               Stone Paper Scissor Game
             </Typography>
-            <Typography
-              component="h4"
-              variant="display1"
-              gutterBottom
-              style={{ textAlign: "center", color: "white" }}
-            >
-              {""}
-
-              {/* <Typing loop speed={170}>
-                <span> </span>
-                <Typing.Reset count={1} delay={50} />
-
-                <span>Hey There!! </span>
-
-                <Typing.Backspace count={12} />
-              </Typing>
-              <Typing loop speed={170}>
-                <span> </span>
-                <Typing.Reset count={1} delay={50} />
-                <span>Welcome </span>
-                <Typing.Backspace count={8} />
-              </Typing> */}
-              <Typing loop speed={170}>
-                <span> </span>
-                <Typing.Reset count={1} delay={50} />
-                <span>Let's Play</span>
-                <Typing.Backspace count={10} />
-              </Typing>
-            </Typography>
+            <Typinganimation />
           </Grid>
           <Grid item md={12} style={{ height: "100px" }}>
             {}
