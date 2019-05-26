@@ -1,10 +1,8 @@
 # Stone Paper Scissor Game
 
-<img height=20px src="./src/img/stone.png" >
-<img height=20px src="./src/img/paper.png" >
-<img height=20px src="./src/img/scissors.png" >
+<img height=100px src="./src/img/stone.png" >          <img height=100px src="./src/img/paper.png" >         <img height=100px src="./src/img/scissors.png" >
 
----
+
 
 This Simple Implementation of Stone Paper Scissor Game
 
@@ -12,31 +10,32 @@ You vs Computer
 
 - It is Deployed to [Heroku](http://spsgame.herokuapp.com/)
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-    <div align="center">
-    <p>
-  [![](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://spsgame.herokuapp.com) [![made-with-react](https://img.shields.io/badge/React-2.1.5-brightgreen.svg)]((https://github.com/facebook/create-react-app) 
+    
+   
+  [![React](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://spsgame.herokuapp.com) [![made-with-react](https://img.shields.io/badge/React-2.1.5-brightgreen.svg)](https://github.com/facebook/create-react-app)
   ![](https://img.shields.io/github/stars/stanleeniko/Stone-Paper-Scissors.svg?style=plastic) 
   ![](https://img.shields.io/github/forks/stanleeniko/Stone-Paper-Scissors.svg) 
   ![](https://img.shields.io/github/license/stanleeniko/Stone-Paper-Scissors.svg)
-  </p>
-    </div>
+        
+        [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+  
+  
 
 ## How To Play
 
 #### Enter Your Name
+ <img height=400px src="./src/img/p1.png" >
 
-## <img height=200px src="./src/img/p1.png" >
+#### Choose
 
-## ####Choose
+<img height=400px src="./src/img/p2.png" >
 
-<img height=200px src="./src/img/p2.png" >
 #### Go
-<img height=200px src="./src/img/p3.png" >
+<img height=400px src="./src/img/p3.png" >
 - Computer will randomly generate its choice.
 - Result will be shown .
 - Simultaneously Score will be updated.
 
----
 
 ## How to Use ?
 
