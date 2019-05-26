@@ -2,7 +2,12 @@
 
 <img height=100px src="./src/img/stone.png" >          <img height=100px src="./src/img/paper.png" >         <img height=100px src="./src/img/scissors.png" >
 
-
+ 
+  [![React](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://spsgame.herokuapp.com) [![made-with-react](https://img.shields.io/badge/React-2.1.5-brightgreen.svg)](https://github.com/facebook/create-react-app)
+  ![](https://img.shields.io/github/stars/stanleeniko/Stone-Paper-Scissors.svg?style=plastic) 
+  ![](https://img.shields.io/github/forks/stanleeniko/Stone-Paper-Scissors.svg) 
+  ![](https://img.shields.io/github/license/stanleeniko/Stone-Paper-Scissors.svg)
+        
 
 This Simple Implementation of Stone Paper Scissor Game
 
@@ -11,12 +16,7 @@ You vs Computer
 - It is Deployed to [Heroku](http://spsgame.herokuapp.com/)
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
     
-   
-  [![React](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://spsgame.herokuapp.com) [![made-with-react](https://img.shields.io/badge/React-2.1.5-brightgreen.svg)](https://github.com/facebook/create-react-app)
-  ![](https://img.shields.io/github/stars/stanleeniko/Stone-Paper-Scissors.svg?style=plastic) 
-  ![](https://img.shields.io/github/forks/stanleeniko/Stone-Paper-Scissors.svg) 
-  ![](https://img.shields.io/github/license/stanleeniko/Stone-Paper-Scissors.svg)
-        
+  
        
   
   
@@ -45,17 +45,17 @@ You vs Computer
   > git clone https://github.com/stanleeniko/Stone-Paper-Scissors.git
 
 - Inside Project Directory
-- Install Dependencies
+  - Install Dependencies
 
-  > npm install
+   > npm install
 
-- Runs the app in the development mode.
+   - Runs the app in the development mode.
 
   > npm start
 
-- Open http://localhost:3000 to view it in the browser.
-- The page will reload if you make edits.
-- You will also see any lint errors in the console.
+  - Open http://localhost:3000 to view it in the browser.
+  - The page will reload if you make edits.
+  - You will also see any lint errors in the console.
 
 ## License
 
