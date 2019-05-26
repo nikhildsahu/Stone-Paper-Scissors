@@ -1,12 +1,13 @@
-# Stone Paper Scissor Game
 
-<img height=100px src="./src/img/stone.png" >          <img height=100px src="./src/img/paper.png" >         <img height=100px src="./src/img/scissors.png" >
+<h1 align="center"> Stone Paper Scissor Game</h1>
+<p align="center">
+  <a href="" rel="noopener">
+<img height=100px src="./src/img/stone.png" >         
+ <img height=100px src="./src/img/paper.png" > 
+ <img height=100px src="./src/img/scissors.png" >
+</p>
 
- 
-  [![React](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://spsgame.herokuapp.com) [![made-with-react](https://img.shields.io/badge/React-2.1.5-brightgreen.svg)](https://github.com/facebook/create-react-app)
-  ![](https://img.shields.io/github/stars/stanleeniko/Stone-Paper-Scissors.svg?style=plastic) 
-  ![](https://img.shields.io/github/forks/stanleeniko/Stone-Paper-Scissors.svg) 
-  ![](https://img.shields.io/github/license/stanleeniko/Stone-Paper-Scissors.svg)
+  
         
 
 This Simple Implementation of Stone Paper Scissor Game
@@ -16,10 +17,18 @@ You vs Computer
 - It is Deployed to [Heroku](http://spsgame.herokuapp.com/)
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
     
+ --------- 
+<div align="center">
   
-       
-  
-  
+  [![React](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://spsgame.herokuapp.com) 
+  [![made-with-react](https://img.shields.io/badge/React-2.1.5-brightgreen.svg)](https://github.com/facebook/create-react-app)
+  ![](https://img.shields.io/github/stars/stanleeniko/Stone-Paper-Scissors.svg?style=plastic) 
+  ![](https://img.shields.io/github/forks/stanleeniko/Stone-Paper-Scissors.svg) 
+  ![](https://img.shields.io/github/license/stanleeniko/Stone-Paper-Scissors.svg)
+ 
+
+ 
+ </div>
 
 ## How To Play
 
