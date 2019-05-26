@@ -1,8 +1,8 @@
 # Stone Paper Scissor Game
 
-<img height=200px src="./src/img/stone.png" >
-<img height=200px src="./src/img/paper.png" >
-<img height=200px src="./src/img/scissors.png" >
+<img height=20px src="./src/img/stone.png" >
+<img height=20px src="./src/img/paper.png" >
+<img height=20px src="./src/img/scissors.png" >
 
 ---
 
@@ -12,11 +12,14 @@ You vs Computer
 
 - It is Deployed to [Heroku](http://spsgame.herokuapp.com/)
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-  <div align="center">
-  <p>
-  [![](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://spsgame.herokuapp.com) [![made-with-react](https://img.shields.io/badge/React-2.1.5-brightgreen.svg)]((https://github.com/facebook/create-react-app) ![](https://img.shields.io/github/stars/stanleeniko/Stone-Paper-Scissors.svg?style=plastic) ![](https://img.shields.io/github/forks/stanleeniko/Stone-Paper-Scissors.svg) ![](https://img.shields.io/github/license/stanleeniko/Stone-Paper-Scissors.svg)
+    <div align="center">
+    <p>
+  [![](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://spsgame.herokuapp.com) [![made-with-react](https://img.shields.io/badge/React-2.1.5-brightgreen.svg)]((https://github.com/facebook/create-react-app) 
+  ![](https://img.shields.io/github/stars/stanleeniko/Stone-Paper-Scissors.svg?style=plastic) 
+  ![](https://img.shields.io/github/forks/stanleeniko/Stone-Paper-Scissors.svg) 
+  ![](https://img.shields.io/github/license/stanleeniko/Stone-Paper-Scissors.svg)
   </p>
-  </div>
+    </div>
 
 ## How To Play
 
