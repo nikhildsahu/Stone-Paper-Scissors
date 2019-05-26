@@ -5,19 +5,8 @@
 <img height=100px src="./src/img/stone.png" >         
  <img height=100px src="./src/img/paper.png" > 
  <img height=100px src="./src/img/scissors.png" >
-</p>
+        </p>  
 
-  
-        
-
-This Simple Implementation of Stone Paper Scissor Game
-
-You vs Computer
-
-- It is Deployed to [Heroku](http://spsgame.herokuapp.com/)
-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-    
- --------- 
 <div align="center">
   
   [![React](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://spsgame.herokuapp.com) 
@@ -26,10 +15,16 @@ You vs Computer
   ![](https://img.shields.io/github/forks/stanleeniko/Stone-Paper-Scissors.svg) 
   ![](https://img.shields.io/github/license/stanleeniko/Stone-Paper-Scissors.svg)
  
-
- 
  </div>
 
+## About
+
+This Simple Implementation of Stone Paper Scissor Game
+
+You vs Computer
+
+- It is Deployed to [Heroku](http://spsgame.herokuapp.com/)
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## How To Play
 
 #### Enter Your Name
