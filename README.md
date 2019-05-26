@@ -17,7 +17,7 @@ You vs Computer
   ![](https://img.shields.io/github/forks/stanleeniko/Stone-Paper-Scissors.svg) 
   ![](https://img.shields.io/github/license/stanleeniko/Stone-Paper-Scissors.svg)
         
-        [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+       
   
   
 
