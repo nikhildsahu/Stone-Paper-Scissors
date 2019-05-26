@@ -32,6 +32,7 @@ You vs Computer
 
 #### Go
 <img height=400px src="./src/img/p3.png" >
+
 - Computer will randomly generate its choice.
 - Result will be shown .
 - Simultaneously Score will be updated.
