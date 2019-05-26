@@ -2,7 +2,7 @@ This Simple Implementation of Stone Paper Scissor  Game
 
 You vs Computer 
 
-It is Deployed to Heroku (http://spsgame.herokuapp.com/)
+It is Deployed to [Heroku] (http://spsgame.herokuapp.com/)
 
 
 
